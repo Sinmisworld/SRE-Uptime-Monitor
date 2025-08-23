@@ -1,5 +1,23 @@
-venv/
+# Python
+*.pyc
+*.pyo
+*.pyd
 __pycache__/
-*.zip
+venv/
+.env
+
+# Terraform
 .terraform/
-terraform.tfstate*
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars
+*.tfplan
+
+# OS / Editor
+.DS_Store
+*.swp
+*.sublime-workspace
+*.idea/
+
+# Logs
+*.log
