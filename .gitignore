@@ -21,3 +21,7 @@ terraform.tfvars
 
 # Logs
 *.log
+
+app/checker/package/
+app/checker/checker.zip
+infra/terraform/checker.zip
