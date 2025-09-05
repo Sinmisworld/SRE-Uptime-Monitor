@@ -47,10 +47,14 @@ Full details in [`docs/slo.md`](docs/slo.md).
 - Provisioned **SNS topic & subscription** for alerting
 - Established repo structure + `.gitignore`
 
+## ✅ Completed Week 2: Uptime Checker Lambda
+- Built a Python Lambda function to check availability & latency for key services
+- Configured SNS topic + email subscription for alerts
+- Deployed Lambda via Terraform with packaging automation
+- Verified monitoring works (alerts sent for non-200 responses or >500ms latency)
 ---
 
 ## 🛠️ Next Steps
-- Week 2: Build uptime checker Lambda
 - Week 3: Add API & status dashboard
 - Week 4: CI/CD automation, chaos testing
 
